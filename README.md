@@ -33,4 +33,10 @@ sudo ldconfig
 **//Path setup guide** 
 At the end of installation the path will be shown like this (/home/ajay/Desktop/Programs/Improved_Attacks_GIFT64-main/cadiback:/home/ajay/Desktop/Programs/Improved_Attacks_GIFT64-main/cadical/build) then just copy it and type over terminal
 **<<<<<<<<Path Set up>>>>>>>>>>>>**
+
+#To compile this code
+g++ Differential.cpp /usr/local/lib/libcryptominisat5.so
+
+#To run just type
+./a.out
 export LD_LIBRARY_PATH=/home/ajay/Desktop/Programs/Improved_Attacks_GIFT64-main/cadiback:/home/ajay/Desktop/Programs/Improved_Attacks_GIFT64-main/cadical/build
